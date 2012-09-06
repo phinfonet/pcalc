@@ -1,0 +1,360 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75A1531C15F96BB8003D95A5 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75A1531B15F96BB8003D95A5 /* Cocoa.framework */; };
+		75A1531E15F96BB8003D95A5 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75A1531D15F96BB8003D95A5 /* MacRuby.framework */; };
+		75A1532715F96BB9003D95A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75A1532515F96BB9003D95A5 /* InfoPlist.strings */; };
+		75A1532915F96BB9003D95A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A1532815F96BB9003D95A5 /* main.m */; };
+		75A1532E15F96BB9003D95A5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75A1532C15F96BB9003D95A5 /* MainMenu.xib */; };
+		75A1533115F96BB9003D95A5 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 75A1533015F96BB9003D95A5 /* rb_main.rb */; };
+		75A1533315F96BB9003D95A5 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 75A1533215F96BB9003D95A5 /* AppDelegate.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75A1532015F96BB8003D95A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75A1530E15F96BB8003D95A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75A1531615F96BB8003D95A5;
+			remoteInfo = PCalc;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75A1531715F96BB8003D95A5 /* PCalc.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PCalc.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A1531B15F96BB8003D95A5 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		75A1531D15F96BB8003D95A5 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		75A1532415F96BB8003D95A5 /* PCalc-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PCalc-Info.plist"; sourceTree = "<group>"; };
+		75A1532615F96BB9003D95A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		75A1532815F96BB9003D95A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		75A1532A15F96BB9003D95A5 /* PCalc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PCalc-Prefix.pch"; sourceTree = "<group>"; };
+		75A1532D15F96BB9003D95A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		75A1533015F96BB9003D95A5 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		75A1533215F96BB9003D95A5 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75A1531415F96BB8003D95A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A1531C15F96BB8003D95A5 /* Cocoa.framework in Frameworks */,
+				75A1531E15F96BB8003D95A5 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75A1530C15F96BB8003D95A5 = {
+			isa = PBXGroup;
+			children = (
+				75A1532215F96BB8003D95A5 /* PCalc */,
+				75A1531A15F96BB8003D95A5 /* Frameworks */,
+				75A1531815F96BB8003D95A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75A1531815F96BB8003D95A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75A1531715F96BB8003D95A5 /* PCalc.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75A1531A15F96BB8003D95A5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				75A1531B15F96BB8003D95A5 /* Cocoa.framework */,
+				75A1531D15F96BB8003D95A5 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75A1532215F96BB8003D95A5 /* PCalc */ = {
+			isa = PBXGroup;
+			children = (
+				75A1533215F96BB9003D95A5 /* AppDelegate.rb */,
+				75A1532B15F96BB9003D95A5 /* Resources */,
+				75A1532F15F96BB9003D95A5 /* Other Sources */,
+				75A1532315F96BB8003D95A5 /* Supporting Files */,
+			);
+			path = PCalc;
+			sourceTree = "<group>";
+		};
+		75A1532315F96BB8003D95A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				75A1532415F96BB8003D95A5 /* PCalc-Info.plist */,
+				75A1532515F96BB9003D95A5 /* InfoPlist.strings */,
+				75A1532815F96BB9003D95A5 /* main.m */,
+				75A1532A15F96BB9003D95A5 /* PCalc-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		75A1532B15F96BB9003D95A5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				75A1532C15F96BB9003D95A5 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		75A1532F15F96BB9003D95A5 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				75A1533015F96BB9003D95A5 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		75A1531F15F96BB8003D95A5 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = 75A1533915F96BB9003D95A5 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+				75A1532115F96BB8003D95A5 /* PBXTargetDependency */,
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		75A1531615F96BB8003D95A5 /* PCalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75A1533615F96BB9003D95A5 /* Build configuration list for PBXNativeTarget "PCalc" */;
+			buildPhases = (
+				75A1531315F96BB8003D95A5 /* Sources */,
+				75A1531415F96BB8003D95A5 /* Frameworks */,
+				75A1531515F96BB8003D95A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PCalc;
+			productName = PCalc;
+			productReference = 75A1531715F96BB8003D95A5 /* PCalc.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75A1530E15F96BB8003D95A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Pedro Henrique";
+			};
+			buildConfigurationList = 75A1531115F96BB8003D95A5 /* Build configuration list for PBXProject "PCalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 75A1530C15F96BB8003D95A5;
+			productRefGroup = 75A1531815F96BB8003D95A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75A1531615F96BB8003D95A5 /* PCalc */,
+				75A1531F15F96BB8003D95A5 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75A1531515F96BB8003D95A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A1532715F96BB9003D95A5 /* InfoPlist.strings in Resources */,
+				75A1532E15F96BB9003D95A5 /* MainMenu.xib in Resources */,
+				75A1533115F96BB9003D95A5 /* rb_main.rb in Resources */,
+				75A1533315F96BB9003D95A5 /* AppDelegate.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75A1531315F96BB8003D95A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75A1532915F96BB9003D95A5 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75A1532115F96BB8003D95A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75A1531615F96BB8003D95A5 /* PCalc */;
+			targetProxy = 75A1532015F96BB8003D95A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		75A1532515F96BB9003D95A5 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75A1532615F96BB9003D95A5 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		75A1532C15F96BB9003D95A5 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				75A1532D15F96BB9003D95A5 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		75A1533415F96BB9003D95A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		75A1533515F96BB9003D95A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		75A1533715F96BB9003D95A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PCalc/PCalc-Prefix.pch";
+				INFOPLIST_FILE = "PCalc/PCalc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		75A1533815F96BB9003D95A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SYSTEM_APPS_DIR)/Xcode.app/Contents/Developer/Library/Frameworks\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PCalc/PCalc-Prefix.pch";
+				INFOPLIST_FILE = "PCalc/PCalc-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		75A1533A15F96BB9003D95A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		75A1533B15F96BB9003D95A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75A1531115F96BB8003D95A5 /* Build configuration list for PBXProject "PCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75A1533415F96BB9003D95A5 /* Debug */,
+				75A1533515F96BB9003D95A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75A1533615F96BB9003D95A5 /* Build configuration list for PBXNativeTarget "PCalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75A1533715F96BB9003D95A5 /* Debug */,
+				75A1533815F96BB9003D95A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		75A1533915F96BB9003D95A5 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75A1533A15F96BB9003D95A5 /* Debug */,
+				75A1533B15F96BB9003D95A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75A1530E15F96BB8003D95A5 /* Project object */;
+}
