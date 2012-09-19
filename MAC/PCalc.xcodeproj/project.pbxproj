@@ -11,9 +11,12 @@
 		75A1531E15F96BB8003D95A5 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75A1531D15F96BB8003D95A5 /* MacRuby.framework */; };
 		75A1532715F96BB9003D95A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 75A1532515F96BB9003D95A5 /* InfoPlist.strings */; };
 		75A1532915F96BB9003D95A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A1532815F96BB9003D95A5 /* main.m */; };
-		75A1532E15F96BB9003D95A5 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75A1532C15F96BB9003D95A5 /* MainMenu.xib */; };
 		75A1533115F96BB9003D95A5 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 75A1533015F96BB9003D95A5 /* rb_main.rb */; };
 		75A1533315F96BB9003D95A5 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 75A1533215F96BB9003D95A5 /* AppDelegate.rb */; };
+		75C0EBBC15FD56DE007AF054 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 75C0EBBB15FD56DE007AF054 /* MainMenu.xib */; };
+		75C0EBC215FD5E2A007AF054 /* Pcalc.icns in Resources */ = {isa = PBXBuildFile; fileRef = 75C0EBC115FD5E2A007AF054 /* Pcalc.icns */; };
+		75C0EBC615FD5F65007AF054 /* image.rb in Resources */ = {isa = PBXBuildFile; fileRef = 75C0EBC515FD5F65007AF054 /* image.rb */; };
+		75C7490B15FD428C00B49590 /* Pcalc_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 75C7490A15FD428C00B49590 /* Pcalc_image.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +37,12 @@
 		75A1532615F96BB9003D95A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		75A1532815F96BB9003D95A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		75A1532A15F96BB9003D95A5 /* PCalc-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PCalc-Prefix.pch"; sourceTree = "<group>"; };
-		75A1532D15F96BB9003D95A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		75A1533015F96BB9003D95A5 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
-		75A1533215F96BB9003D95A5 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+		75A1533215F96BB9003D95A5 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; usesTabs = 0; };
+		75C0EBBB15FD56DE007AF054 /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainMenu.xib; path = ../../../.Trash/MainMenu.xib; sourceTree = "<group>"; };
+		75C0EBC115FD5E2A007AF054 /* Pcalc.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = Pcalc.icns; path = ../../../design/Pcalc.icns; sourceTree = "<group>"; };
+		75C0EBC515FD5F65007AF054 /* image.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = image.rb; sourceTree = "<group>"; };
+		75C7490A15FD428C00B49590 /* Pcalc_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Pcalc_image.png; path = ../../../design/Pcalc_image.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,10 +87,12 @@
 		75A1532215F96BB8003D95A5 /* PCalc */ = {
 			isa = PBXGroup;
 			children = (
+				75C7490A15FD428C00B49590 /* Pcalc_image.png */,
 				75A1533215F96BB9003D95A5 /* AppDelegate.rb */,
 				75A1532B15F96BB9003D95A5 /* Resources */,
 				75A1532F15F96BB9003D95A5 /* Other Sources */,
 				75A1532315F96BB8003D95A5 /* Supporting Files */,
+				75C0EBC515FD5F65007AF054 /* image.rb */,
 			);
 			path = PCalc;
 			sourceTree = "<group>";
@@ -103,7 +111,8 @@
 		75A1532B15F96BB9003D95A5 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				75A1532C15F96BB9003D95A5 /* MainMenu.xib */,
+				75C0EBC115FD5E2A007AF054 /* Pcalc.icns */,
+				75C0EBBB15FD56DE007AF054 /* MainMenu.xib */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -186,9 +195,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				75A1532715F96BB9003D95A5 /* InfoPlist.strings in Resources */,
-				75A1532E15F96BB9003D95A5 /* MainMenu.xib in Resources */,
 				75A1533115F96BB9003D95A5 /* rb_main.rb in Resources */,
 				75A1533315F96BB9003D95A5 /* AppDelegate.rb in Resources */,
+				75C7490B15FD428C00B49590 /* Pcalc_image.png in Resources */,
+				75C0EBBC15FD56DE007AF054 /* MainMenu.xib in Resources */,
+				75C0EBC215FD5E2A007AF054 /* Pcalc.icns in Resources */,
+				75C0EBC615FD5F65007AF054 /* image.rb in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,14 +234,6 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		75A1532C15F96BB9003D95A5 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				75A1532D15F96BB9003D95A5 /* en */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -254,7 +258,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -275,7 +279,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -345,6 +349,7 @@
 				75A1533815F96BB9003D95A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		75A1533915F96BB9003D95A5 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
 			isa = XCConfigurationList;
@@ -353,6 +358,7 @@
 				75A1533B15F96BB9003D95A5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
